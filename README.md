@@ -6,9 +6,9 @@ Apache, MySQL, PHP
 ローカルの./mini_blog以下のファイルを/var/www/html以下にマウントする。
 
 ## MySQL、MySQLへの接続
-user root
-password pass
-host mysql
+-user root
+-password pass
+-host mysql
 
 ```
 docker exec -i -t [コンテナ名] bash
